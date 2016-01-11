@@ -1345,6 +1345,10 @@ $size-wrapper-pad-lr: 3em;
 		text-align: center;
 		z-index: ($max-spotlight + 1);
 
+		h2 {
+			color: white;
+		}
+
 		&:before {
 			content: '';
 			display: inline-block;
@@ -1452,5 +1456,30 @@ $size-wrapper-pad-lr: 3em;
 					color: inherit;
 				}
 			}
+		}
+	}
+
+	#one {
+		h2 {
+			color: white;
+		}
+
+		br {
+			margin: -10px;
+		}
+		p {
+			color: white;
+			font-size: 1.2em;
+		}
+	}
+
+	#five {
+		background-color: #230C33;
+
+		h2 {
+			color: #EFE9F4;
+		}
+		a {
+			color: #EFE9F4;
 		}
 	}
