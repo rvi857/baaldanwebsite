@@ -1503,8 +1503,25 @@ body.is-touch #banner {
 #five {
   background-color: #230C33; }
   #five h2 {
-    color: #EFE9F4; }
+    color: #EFE9F4;
+    font-size: 3em; }
   #five a {
-    color: #EFE9F4; }
+    color: #EFE9F4;
+    font-size: 2em;
+    margin-right: 10px; }
+  #five .button {
+    font-size: 1.2em; }
+
+.fa-2x {
+  font-size: 2em !important; }
+
+.fa-3x {
+  font-size: 3em !important; }
+
+.fa-4x {
+  font-size: 4em !important; }
+
+.fa-5x {
+  font-size: 5em !important; }
 
 /*# sourceMappingURL=style.css.map */
